@@ -1,0 +1,1 @@
+# funNews.app
