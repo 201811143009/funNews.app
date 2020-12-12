@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:showDividers="beginning">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@android:color/black" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1px"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/bottombar_button1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/ic_home"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="首页"
+            android:textColor="@color/theme_red_primary" />
+
+        <RadioButton
+            android:id="@+id/bottombar_button2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_my"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="分类"
+            android:textColor="@color/theme_red_primary" />
+
+
+        <RadioButton
+            android:id="@+id/bottombar_button3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_home"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="关注"
+            android:textColor="@color/theme_red_primary" />
+
+
+        <RadioButton
+            android:id="@+id/bottombar_button4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/ic_my"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="我的"
+            android:textColor="@color/theme_red_primary" />
+    </RadioGroup>
+
+</FrameLayout>
